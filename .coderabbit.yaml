@@ -1,0 +1,14 @@
+# 리뷰 댓글 언어
+language: ko-KR
+
+reviews:
+  # quiet: 중요 문제 위주
+  # chill: 균형 잡힌 리뷰
+  # assertive: 더 적극적이고 세부적인 리뷰
+  profile: "chill"
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
+    drafts: false
+    base_branches:
+      - "^dev$"
